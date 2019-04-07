@@ -1,0 +1,19 @@
+{
+  "main.css": "/radio-app/static/css/main.2fc1e3fe.chunk.css",
+  "main.js": "/radio-app/static/js/main.1a9193de.chunk.js",
+  "main.js.map": "/radio-app/static/js/main.1a9193de.chunk.js.map",
+  "runtime~main.js": "/radio-app/static/js/runtime~main.43c323e8.js",
+  "runtime~main.js.map": "/radio-app/static/js/runtime~main.43c323e8.js.map",
+  "static/js/2.c830b613.chunk.js": "/radio-app/static/js/2.c830b613.chunk.js",
+  "static/js/2.c830b613.chunk.js.map": "/radio-app/static/js/2.c830b613.chunk.js.map",
+  "index.html": "/radio-app/index.html",
+  "precache-manifest.e44c6023427ea359ff0f2a4f04f0adc8.js": "/radio-app/precache-manifest.e44c6023427ea359ff0f2a4f04f0adc8.js",
+  "service-worker.js": "/radio-app/service-worker.js",
+  "static/css/main.2fc1e3fe.chunk.css.map": "/radio-app/static/css/main.2fc1e3fe.chunk.css.map",
+  "static/media/app.css": "/radio-app/static/media/4.3f9169f6.jpg",
+  "static/media/100hitz.png": "/radio-app/static/media/100hitz.c6029486.png",
+  "static/media/KCRW.png": "/radio-app/static/media/KCRW.a4286885.png",
+  "static/media/ThatChannel.png": "/radio-app/static/media/ThatChannel.7678d062.png",
+  "static/media/hello.png": "/radio-app/static/media/hello.a63518f1.png",
+  "static/media/road.png": "/radio-app/static/media/road.e9a49d35.png"
+}
