@@ -44,15 +44,15 @@ self.__precacheManifest = [
     "url": "/radio-app/static/media/2.888bacf4.jpg"
   },
   {
-    "revision": "99c8875c62bafe02c6c5ae8cac588e5b",
-    "url": "/radio-app/static/media/1.99c8875c.jpg"
-  },
-  {
     "revision": "3f9169f60dc0f3b08a58e704ddff2df6",
     "url": "/radio-app/static/media/4.3f9169f6.jpg"
   },
   {
-    "revision": "c18c34f123b05de7f55b6b03498f0132",
+    "revision": "99c8875c62bafe02c6c5ae8cac588e5b",
+    "url": "/radio-app/static/media/1.99c8875c.jpg"
+  },
+  {
+    "revision": "9f9da574dd54c35487b6405f2f71d920",
     "url": "/radio-app/index.html"
   }
 ];
