@@ -1,0 +1,51 @@
+.skin__wrapper {
+  display: flex;
+  justify-content: center;
+}
+.skin__label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 0.1rem 0.8rem;
+  background-color: #cfc0be;
+  border: 1px solid #08051b;
+  color: #08051b;
+  font-size: 0.7em;
+  font-weight: bold;
+  transition: all 0.4s linear;
+}
+.skin__label:active {
+  background-color: #085761;
+}
+.skin__label > span {
+    transition: all 0.2s linear;
+    background: #cfc0be;
+    display:inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 6px;
+}
+
+.skin__label > input[type=radio]:checked + span {
+    background: #085761;
+}
+
+@media only screen and (max-height : 570px)  and (orientation : portrait) {
+  .skin__label {
+    font-size: 0.4em;
+    margin: 0.5rem;
+  }
+  .skin__label > span {
+    width: 4px;
+    height: 4px;
+  }
+}
+@media only screen and (min-width : 2000px) {
+  .skin__label {
+    font-size: 1.2em;
+    margin: 1.5rem;
+  }
+}
