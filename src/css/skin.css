@@ -10,19 +10,18 @@
   cursor: pointer;
   border-radius: 2px;
   padding: 0.1rem 0.8rem;
-  background-color: #cfc0be;
-  border: 1px solid #08051b;
+  background-color: rgba(237, 227, 225, 0.3);
   color: #08051b;
   font-size: 0.7em;
   font-weight: bold;
   transition: all 0.4s linear;
 }
 .skin__label:active {
-  background-color: #085761;
+  background-color: #b8ca13;
 }
 .skin__label > span {
     transition: all 0.2s linear;
-    background: #cfc0be;
+    background: none;
     display:inline-block;
     width: 8px;
     height: 8px;
@@ -30,7 +29,7 @@
 }
 
 .skin__label > input[type=radio]:checked + span {
-    background: #085761;
+    background: #b8ca13;
 }
 
 @media only screen and (max-height : 570px)  and (orientation : portrait) {

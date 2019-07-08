@@ -2,23 +2,32 @@
 .list__station {
   width: 30%;
   text-align: center;
+  height: 80%;
 }
 .list__station > ul {
   margin: 0;
   padding: 0;
+  width: 100%;
+  max-height: 70%;
   list-style: none;
+  overflow: scroll;
+  overflow-x: hidden;
+  
+}
+::-webkit-scrollbar {
+  width: 0px; 
 }
 .list__station_title {
-  color: #61000d;
+  color: rgba(81, 89, 7, 0.5);
+  font-size: 2em;
 }
 
 /***************************************************** Every station */
 .station {
-  box-shadow: 0 0 1px rgba(0,0,0,1);
   width: 100%;
   height: 2.5rem;
-  background-color: #cfc0be;
-  color: #085761;
+  background-color: rgba(240, 223, 221, 0.3);
+  color: #042529;
   font-weight: 600;
   cursor: pointer;
   display: flex;
@@ -27,9 +36,11 @@
   padding: 0.2rem;
 }
 .station:hover {
-   -webkit-transform: scale(1.02);
-   -ms-transform: scale(1.02);
-   transform: scale(1.02);
+   -webkit-transform: translateX(-3rem);
+   -ms-transform: translateX(1rem);
+   transform:translateX(1rem);
+   background-color: rgba(5, 43, 18, 0.2);
+   color: #f5f0f0;
 }
 .logo {
   margin-left: 10%;
@@ -38,17 +49,18 @@
   margin-right: 10px;
 }
 .include {
-  background-color: #f0bfe1;
+  background-color: rgba(5, 43, 18, 0.2);
+  color: #f5f0f0;
 }
 /***************************************************** Search 'input'  */
 .dataSearch {
-  box-shadow: 0 0 1px rgba(0,0,0,1);
   width: 100%;
   height: 2.5rem;
   border: none;
   outline: none;
   padding: 0.2rem;
   text-align: center;
+  background-color: #edeff0;
 }
 
 /***************************************************** Media queries  */

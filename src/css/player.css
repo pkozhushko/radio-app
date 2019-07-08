@@ -9,8 +9,8 @@
   height: 23rem;
   box-shadow: 0 0 30px rgba(0,0,0,1);
   border-radius: 8px;
-  border: 2px outset #1a1713;
-  background-color: #379fab;
+  border: 1px outset #1a1713;
+  background-color: rgba(2, 128, 133, 0.8);
 }
 
 /***************************************************** Display */
@@ -27,7 +27,7 @@
   transition: all 0.3s linear;
 }
 .On {
-  background-color: rgb(248, 249, 247);
+  background-color: rgba(255, 255, 255, 0.979);
   box-shadow: 0 0 10px rgba(249, 249, 249, 0.2);
 }
 .playerLogo {
@@ -46,7 +46,6 @@
 /***************************************************** Buttons */
 .btn__group {
   position: relative;
-  background-color: #379fab;
   height: 35%;
   width: 3rem;
   display: flex;
@@ -59,11 +58,12 @@
   height: 3rem;
   width: 3rem;
   background-color: #fcfcfc;
-  box-shadow: 0 0 4px rgba(252, 252, 252, 0.3);
+  box-shadow: 0 0 4px rgb(0, 0, 0);
   outline: none;
-  border: 1px solid #1c1c1c;
+  border: 1px solid #fcfcfc;
   font-size: 1.1em;
   color: #1c1c1c;
+  cursor: pointer;
 }
 .plus {
   margin-top: -65%;
@@ -78,8 +78,8 @@
   margin-left: 130%;
 }
 .btn:hover {
-  box-shadow: 0 0 10px rgba(252, 252, 252, 0.5);
-  color: #262626;
+  box-shadow: 0 0 13px rgba(252, 252, 252, 0.4);
+  color: #121212;
 }
 .btn:active {
   box-shadow: 0 0 10px rgba(252, 252, 252, 0.2);

@@ -3,13 +3,12 @@ import Player from './Components/Player';
 import Skin from './Components/Skin';
 import RadioStations from './Components/RadioStations';
 import './css/app.css';
-import Hello from './img/hello.png';
 
 class App extends Component {
   state = {
     stationName: '',
     stationURL: '',
-    stationImg: Hello,
+    stationImg: 'https://images.vexels.com/media/users/3/127486/isolated/preview/38ff2a5e0903eac1fa51b2d1a9087bed-hello-comic-speech-doodle-by-vexels.png',
     background: "bg1"
   }
 
